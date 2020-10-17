@@ -6,4 +6,4 @@ class CLI
 
 end
 
-CLI.new.start 
+ 
