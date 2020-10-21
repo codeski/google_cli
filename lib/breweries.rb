@@ -1,4 +1,4 @@
-class Object
+class Breweries
 
   attr_accessor :name
 

@@ -2,7 +2,7 @@ class CLI
 
   def start
     puts "Welcome"
-    API.fetch_food
+    API.make_colorado_breweries
   end
 
 end
