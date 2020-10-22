@@ -11,8 +11,7 @@ class CLI
     puts "type 'yes' to continue or anything else to exit"
     user_input = gets.strip.downcase
 
-    if user_input == "yes" || user_input == "y"
-      puts "Excellent!"
+    if user_input == "yes" || user_input == "y" || user_input == "ye"
       list_breweries
       puts "\n"
       brewery_choice
@@ -34,7 +33,7 @@ class CLI
 
   def list_breweries
     Brewery.all.each.with_index(1) do |brewery, index|
-      puts "#{index}. #{brewery.name}"
+      puts "#{index}. #{brewery.name}, #{brewery.city}"
     end
   end
 
@@ -54,7 +53,7 @@ class CLI
     puts brewery.name
     puts "address: " + brewery.street + ", " + brewery.city + ", " + brewery.postal_code
     puts "web: " + brewery.website_url
-    puts "phone: " + brewery.phone
+    puts "phone: " + brewery.phone.insert(3, '-').insert(-5, '-')
   end
 
 end
