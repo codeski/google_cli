@@ -1,22 +1,28 @@
-#all should be class meathods
-
 class API
+
+  #all Class methods
 
   def self.make_colorado_breweries
     url = "https://api.openbrewerydb.org/breweries?by_state=colorado"
     uri = URI(url)
     response = Net::HTTP.get(uri)
-    hash = JSON.parse(response)
-    binding.pry
+    breweries = JSON.parse(response)
 
-    # array_of_breweries = hash["id"]
-
-    #
-    # array_of_breweries.each do |brew_hash|
-    #   brewery = Breweries.new
-    #   brewery.name = food_hash[""]
-    #   object.attribute = food_hash[""]
-    # end
+    breweries.each do |brew|
+      binding.pry
+      # brewery = Brewery.new
+      # brewery.name = brew["name"]
+      # brewery.id = brew["id"]
+      # brewery.brewery_type = brew["brewery_type"]
+      # brewery.street = brew["street"]
+      # brewery.city = brew["city"]
+      # brewery.state = brew["state"]
+      # brewery.postal_code = brew["postal_code"]
+      # brewery.longitude = brew["longitude"]
+      # brewery.latitude = brew["latitude"]
+      # brewery.phone = brew["phone"]
+      # brewery.website_url = brew["website_url"]
+    end
   end
 
 
