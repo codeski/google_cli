@@ -21,7 +21,8 @@ class CLI
       list
 
     else
-      puts "Enjoy your local Brewery!"
+      puts "\n"
+      puts "Ok, enjoy your local Brewery!"
       puts ".~~~~."
       puts "i====i_"
       puts "|cccc|_)"
