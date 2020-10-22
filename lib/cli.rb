@@ -13,8 +13,7 @@ class CLI
     if user_input == "yes" || user_input == "y"
       puts "Excellent!"
       list_breweries
-      # brewery_choice
-      # user_prompt
+      brewery_choice
     end
   end
 
@@ -26,7 +25,13 @@ class CLI
 
   def brewery_choice
     puts "Enter the # of the Brewery you want to know more about"
-    user_input = gets.strip
+    index = gets.strip.to_i - 1
+    until index.between?(0, Brewery.all.length - 1)
+      puts "Try again"
+      index = gets.strip.to_i - 1
+    end
+      brewery_choice = Brewery.all[index]
+      puts "#{brewery_choice.name}"
   end
 
 end
