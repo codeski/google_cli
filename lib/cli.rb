@@ -2,12 +2,20 @@ class CLI
 
   def start
     puts "Welcome"
-    API.make_colorado_breweries
-    self.list
+    puts "What state do you want to see brewery information"
+    user_input = gets.strip.downcase
+    API.make_colorado_breweries(user_input)
+    # if Brewey.all.length == 0
+    #   puts "Sorry, we can't seem to find any breweries "
+    #   user_input = gets.strip.downcase
+    # else
+      self.list
+    # end
   end
 
   def list
-    puts "Need Colorado brewery information?"
+    first_instance = Brewery.all[0]
+    puts "Need #{first_instance.state} brewery information?"
     puts "type 'yes' to continue or anything else to exit"
     user_input = gets.strip.downcase
 
@@ -15,11 +23,9 @@ class CLI
       list_breweries
       puts "\n"
       brewery_choice
-
-      sleep(2)
+      sleep(3)
       puts "\n"
       list
-
     else
       puts "\n"
       puts "Ok, enjoy your local Brewery!"

@@ -2,8 +2,8 @@ class API
 
   #all Class methods
 
-  def self.make_colorado_breweries
-    url = "https://api.openbrewerydb.org/breweries?by_state=colorado"
+  def self.make_colorado_breweries(state)
+    url = "https://api.openbrewerydb.org/breweries?by_state=#{state}"
     uri = URI(url)
     response = Net::HTTP.get(uri)
     breweries = JSON.parse(response)
