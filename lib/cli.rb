@@ -14,6 +14,7 @@ class CLI
     if user_input == "yes" || user_input == "y"
       puts "Excellent!"
       list_breweries
+      puts "\n"
       brewery_choice
 
       sleep(2)
