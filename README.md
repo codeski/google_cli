@@ -1,6 +1,17 @@
 This is an CLI to learn about Colorado breweries.
 It delivers the name, address, city, zip, url, and phone #
 
+Instructions
+Clone it here: git clone git@github.com:codeski/google_cli.git
+cd google_cli
+ruby bin/run
+
+Video Demo Link -
+Blog Link -
+
+
+
+
 
 
 API - https://www.openbrewerydb.org/
