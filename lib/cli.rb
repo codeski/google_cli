@@ -3,6 +3,7 @@ class CLI
   def start
     puts "Welcome"
     API.make_colorado_breweries
+    # binding.pry
     self.list
   end
 
@@ -50,8 +51,12 @@ class CLI
     puts "\n"
     puts brewery.name
     puts "address: " + brewery.street + ", " + brewery.city + ", " + brewery.postal_code
-    puts "web: " + brewery.website_url
-    puts "phone: " + brewery.phone.insert(3, '-').insert(-5, '-')
+    if brewery.website_url != ""
+      puts "web: " + brewery.website_url
+    end
+    if brewery.phone != ""
+      puts "phone: " + brewery.phone.insert(3, '-').insert(-5, '-')
+    end
   end
 
 end
