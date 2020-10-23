@@ -37,7 +37,7 @@ class CLI
   end
 
   def brewery_choice
-    puts "Enter the # of the Brewery you want to know more about"
+    puts "Enter the # of the brewery you want to know more about"
     index = gets.strip.to_i - 1
     until index.between?(0, Brewery.all.length - 1)
       puts "Try again"
