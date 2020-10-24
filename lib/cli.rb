@@ -3,7 +3,6 @@ class CLI
   def start
     puts "Welcome"
     API.make_colorado_breweries
-    # binding.pry
     self.list
   end
 
