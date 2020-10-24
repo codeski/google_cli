@@ -10,8 +10,6 @@ Video Demo Link -
 Blog Link -
 
 A file manifest (list of files included)
-Copyright and licensing information
-Contact information for the distributor or programmer
 
 Known bugs[1]
 Troubleshooting[1]

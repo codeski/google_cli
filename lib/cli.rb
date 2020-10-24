@@ -14,12 +14,12 @@ class CLI
 
     if user_input == "yes" || user_input == "y" || user_input == "ye"
       puts "\n"
-      list_breweries
+      self.list_breweries
       puts "\n"
-      brewery_choice
+      self.brewery_choice
       sleep(3)
       puts "\n"
-      list
+      self.list
     else
       puts "\n"
       puts "Ok, enjoy your local brewery!"
