@@ -14,8 +14,9 @@ ruby bin/run
 
 ## Instructions
 
-Video Demo Link -
-Blog Link -
+Video Demo Link - https://youtu.be/QA3Z4upcBqs
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="ZB3aXa4"  ><a href="//imgur.com/ZB3aXa4">Do you really want a beer?</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ## Usage
 ```ruby
@@ -32,6 +33,8 @@ Known bugs[1]
 Troubleshooting[1]
 
 ## Contributing
+
+Blog Link - https://codeski.github.io/creating_a_cli_from_scratch
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -50,5 +53,5 @@ i====i_
 |cccc|   hjw
 `-==-'
 ```
-## License 
+## License
 none
