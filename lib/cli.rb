@@ -13,6 +13,7 @@ class CLI
     user_input = gets.strip.downcase
 
     if user_input == "yes" || user_input == "y" || user_input == "ye"
+      puts "\n"
       list_breweries
       puts "\n"
       brewery_choice
