@@ -17,7 +17,7 @@ ruby bin/run
 Video Demo Link -
 Blog Link -
 
-## Example
+## Usage
 ```ruby
 Enter the '#' of the brewery you want to know more about
 8
@@ -30,6 +30,10 @@ phone: 303-922-0960
 
 Known bugs[1]
 Troubleshooting[1]
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Authors and acknowledgment
 
@@ -46,3 +50,5 @@ i====i_
 |cccc|   hjw
 `-==-'
 ```
+## License 
+none
