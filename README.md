@@ -2,7 +2,7 @@
 # Breweries
 
 This is an CLI to learn about Colorado breweries.
-It delivers the name, address, city, zip, url, and phone # of the chosen brewery, if that information exists on https://www.openbrewerydb.org/
+It delivers the name, address, city, zip, url, and phone # of the brewery chosen, if that information exists on https://www.openbrewerydb.org/
 
 ## Installation
 ```ruby
