@@ -16,7 +16,7 @@ ruby bin/run
 
 Video Demo Link - https://youtu.be/QA3Z4upcBqs
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="ZB3aXa4"  ><a href="//imgur.com/ZB3aXa4">Do you really want a beer?</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="ZB3aXa4" data-context="false" ><a href="//imgur.com/ZB3aXa4">Do you really want a beer?</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ## Usage
 ```ruby
