@@ -39,8 +39,10 @@ API - https://www.openbrewerydb.org/
   Logo compiled via Symbolicons.
 
 Art by Hayley Jane Wakenshaw
+```ruby
 .~~~~.
 i====i_
 |cccc|_)
 |cccc|   hjw
 `-==-'
+```
