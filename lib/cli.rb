@@ -44,7 +44,7 @@ class CLI
       index = gets.strip.to_i - 1
     end
       brewery_choice = Brewery.all[index]
-      brewery_info(brewery_choice)
+      self.brewery_info(brewery_choice)
   end
 
   def brewery_info(brewery)
